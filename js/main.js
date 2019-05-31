@@ -1,7 +1,7 @@
 // defining variables
 var listOfImages = [
     // array for first column
-    ['img/issueone/0.png', 'img/issueone/1.jpg', 'img/issueone/2.jpg', 'img/issueone/3.jpg', 'img/issueone/4.jpg', 'img/issueone/5.jpg', 'img/issueone/6.jpg', 'img/issueone/7.jpg', 'img/issueone/8.jpg', 'img/issueone/9.jpg', 'img/issueone/10.jpg','img/issueone/0.png'],
+    ['img/issueone/0.png', 'img/issueone/1.jpg', 'img/issueone/2.jpg', 'img/issueone/3.jpg', 'img/issueone/4.jpg', 'img/issueone/5.jpg', 'img/issueone/6.jpg', 'img/issueone/7.jpg', 'img/issueone/8.jpg', 'img/issueone/9.jpg', 'img/issueone/10.jpg', 'img/issueone/0.png'],
     // array for second column
     ['img/issuetwo/0.png', 'img/issuetwo/1.png', 'img/issuetwo/2.png', 'img/issuetwo/3.png', 'img/issuetwo/4.png', 'img/issuetwo/9.png', 'img/issuetwo/7.png', 'img/issuetwo/8.png', 'img/issuetwo/0.png'],
     // array for third column
