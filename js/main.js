@@ -3,9 +3,9 @@ var listOfImages = [
     // array for first column
     ['img/issueone/0.png', 'img/issueone/1.jpg', 'img/issueone/2.jpg', 'img/issueone/3.jpg', 'img/issueone/4.jpg', 'img/issueone/5.jpg', 'img/issueone/6.jpg', 'img/issueone/7.jpg', 'img/issueone/8.jpg', 'img/issueone/9.jpg', 'img/issueone/10.jpg','img/issueone/0.png'],
     // array for second column
-    ['img/issuetwo/0.png', 'img/issuetwo/1.png', 'img/issuetwo/2.png', 'img/issuetwo/3.png', 'img/issuetwo/4.png', 'img/issuetwo/5.png', 'img/issuetwo/6.png', 'img/issuetwo/7.png', 'img/issuetwo/8.png', 'img/issuetwo/0.png'],
+    ['img/issuetwo/0.png', 'img/issuetwo/1.png', 'img/issuetwo/2.png', 'img/issuetwo/3.png', 'img/issuetwo/4.png', 'img/issuetwo/9.png', 'img/issuetwo/7.png', 'img/issuetwo/8.png', 'img/issuetwo/0.png'],
     // array for third column
-    ['img/issuethree/0.png', 'img/issuethree/1.png', 'img/issuethree/2.png', 'img/issuethree/3.png', 'img/issuethree/4.png', 'img/issuethree/5.png', 'img/issuethree/6.png', 'img/issuethree/7.png', 'img/issuethree/8.png', 'img/issuethree/0.png']
+    ['img/issuethree/0.png', 'img/issuethree/1.png', 'img/issuethree/2.png', 'img/issuethree/3.png', 'img/issuethree/4.png', 'img/issuethree/10.png', 'img/issuethree/7.png', 'img/issuethree/8.png', 'img/issuethree/0.png']
     ];
 
 // this is what happens when the document is loaded

@@ -168,23 +168,27 @@ textarea {
 
 }
 
+#buy{
+    color: blue;
+    font-size: 40px;
+}
 
 #arrow {
     position: absolute;
     text-align: center;
-    width: 10%;
+    width: 4%;
     left: 50%;
-    margin-left: -5%;
-    bottom: -120px;
+    margin-left: -2%;
+    bottom: -100px;
 }
 
 #arrow_up {
     position: absolute;
     text-align: center;
-    width: 10%;
+     width: 4%;
     left: 50%;
-    margin-left: -5%;
-    top: 120px;
+    margin-left: -2%;
+    top: 125px;
     /*    bottom: 0px;*/
 }
 
@@ -423,6 +427,62 @@ a:visited {
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    
+    #shop1 {
+        height: 600px;
+    }
+
+    #shop2 {
+        height: 600px;
+    }
+
+    #shop3 {
+        height: 600px;
+    }
+
+    #shop1 img {
+        width: 37%;
+    }
+
+    .contact {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .shop3 {
+        line-height: 40px;
+    }
+
+    .shop2 {
+        line-height: 40px;
+    }
+
+    .shop1 {
+        line-height: 40px;
+    }
+
+    #arrow {
+        display: none;
+    }
+
+    #arrow_up {
+        display: none;
+    }
+
+
+
+
+    .infotext {
+        margin-bottom: 50px;
+        font-size: 6vw;
+        line-height: 6.5vw;
+    }
+}
+
+@media screen and (max-device-width: 600px) {
     .column {
         width: 100%;
     }
