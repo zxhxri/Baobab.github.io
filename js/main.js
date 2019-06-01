@@ -82,5 +82,7 @@ $(document).ready(function () {
     // Handler for .ready() called.
     $('html, body').animate({
         scrollTop: $('.container').offset().top
-    }, 'fast');
+    }, 'slow');
 });
+
+$('#overlay').fadeIn('slow').delay(4000).fadeOut('slow');
