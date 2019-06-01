@@ -148,19 +148,19 @@ textarea {
 }
 
 #overlay_mobile{
-    width: 450px;
+    width: 400px;
     height: 50px;
     display:none;
     position: fixed;
     left: 50%;
     top:50%;
-    margin-left: -225px;
+    margin-left: -200px;
     margin-top: -25px;
     background:white;
     border:1px solid black;
     color: black;
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     border-radius: 8px;
     text-align: center;
     pointer-events: none;
