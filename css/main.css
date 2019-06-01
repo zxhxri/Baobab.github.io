@@ -577,7 +577,7 @@ a:visited {
     }
     
     #overlay_mobile{
-        display: block;
+        display: none;
     }
 }
 
