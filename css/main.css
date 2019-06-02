@@ -513,7 +513,7 @@ a:visited {
         display: none;
     }
     #overlay_mobile{
-/*        display: block;*/
+        display: block;
     }
 }
 
@@ -577,7 +577,7 @@ a:visited {
     }
     
     #overlay_mobile{
-        display: none;
+/*        display: none;*/
     }
 }
 
