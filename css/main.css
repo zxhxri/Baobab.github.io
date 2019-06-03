@@ -125,7 +125,7 @@ textarea {
 #overlay{
     width: 450px;
     height: 50px;
-    display:block;
+    display:none;
     position: fixed;
     left: 50%;
     top:50%;
@@ -509,12 +509,7 @@ a:visited {
         line-height: 6.5vw;
     }
     
-    #overlay{
-        display: none;
-    }
-    #overlay_mobile{
-        display: none;
-    }
+   
 }
 
 @media screen and (max-device-width: 600px) and (orientation: portrait) {
@@ -572,13 +567,7 @@ a:visited {
         line-height: 6.5vw;
     }
     
-    #overlay{
-        display: none;
-    }
-    
-    #overlay_mobile{
-        display: block;
-    }
+   
 }
 
 

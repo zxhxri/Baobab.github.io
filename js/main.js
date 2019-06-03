@@ -85,5 +85,3 @@ $(document).ready(function () {
     }, 'slow');
 });
 
-$('#overlay').fadeIn('slow').delay(4000).fadeOut('slow');
-$('#overlay_mobile').fadeIn('slow').delay(4000).fadeOut('slow');
