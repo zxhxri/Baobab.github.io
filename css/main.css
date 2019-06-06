@@ -110,11 +110,6 @@ textarea {
     src: url(../fonts/TimesNewRomanMT.otf);
 }
 
-@font-face {
-    font-family: baobab;
-    src: url(../fonts/baobab.otf);
-}
-
 * {
     margin: 0px;
     box-sizing: border-box;
@@ -294,7 +289,6 @@ textarea {
     padding-top: 8px;
     margin-bottom: 15px;
 }
-
 
 
 
