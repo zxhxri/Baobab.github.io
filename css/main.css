@@ -606,20 +606,15 @@ a:visited {
         text-align: center;
     }
 
-    .shop3 {
+    .shop1, .shop2, .shop3, .about {
         line-height: 30px;
         font-size: 25px;
+    }
+      #about{
+        column-count: 1;
+          width: 95%;
     }
 
-    .shop2 {
-        line-height: 30px;
-        font-size: 25px;
-    }
-
-    .shop1 {
-        line-height: 30px;
-        font-size: 25px;
-    }
 
     #arrow {
         display: none;
@@ -638,7 +633,22 @@ a:visited {
     .overlay{
         display: none;
     }
+#shop3text,
+#shop2text,
+#shop1text {
+    
+    font-size: 14px;
+    width: 50%;
+    position: relative;
+    padding-top: 10px;
+    right: 10%;
+    float: right;
+    margin: 0;
+    color: black;
+    line-height: 16px;
 }
+}
+
 
 @media screen and (max-device-width: 600px) and (orientation: portrait) {
     .column {
@@ -666,19 +676,13 @@ a:visited {
         text-align: center;
     }
 
-    .shop3 {
-        line-height: 40px;
+   .shop1, .shop2, .shop3, .about {
+        line-height: 30px;
         font-size: 25px;
     }
-
-    .shop2 {
-        line-height: 40px;
-        font-size: 25px;
-    }
-
-    .shop1 {
-        line-height: 40px;
-        font-size: 25px;
+    
+    #about{
+        column-count: 1;
     }
 
     #arrow {
@@ -698,6 +702,22 @@ a:visited {
     .overlay{
         display: none;
     }
+    
+    
+#shop3text,
+#shop2text,
+#shop1text {
+    
+    font-size: 14px;
+    width: 50%;
+    position: relative;
+    padding-top: 10px;
+    right: 10%;
+    float: right;
+    margin: 0;
+    color: black;
+    line-height: 16px;
+}
 }
 
 
