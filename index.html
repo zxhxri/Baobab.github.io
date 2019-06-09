@@ -17,33 +17,52 @@
 
     <meta name="theme-color" content="#fafafa">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/photoswipe.css">
+
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="css/default-skin.css">
+
+    <!-- Core JS file -->
+    <script src="js/photoswipe.min.js"></script>
+
+    <!-- UI JS file -->
+    <script src="js/photoswipe-ui-default.min.js"></script>
 </head>
 
 <body>
-<div id ="overlay">Move your mouse around.</div>
-    <div id ="overlay_mobile">Tap around the screen.</div>
+    <div id="overlay">Move your mouse around.</div>
+    <div id="overlay_mobile">Tap around the screen.</div>
     <script>
-function myFunction(x) {
-  if (x.matches) { // If media query matches
-    document.getElementById("overlay_mobile").style.display = "block";
-      document.getElementById("overlay").style.display = "none";
-      $('#overlay_mobile').fadeIn('slow').delay(4000).fadeOut('slow');
-  } else {
-   document.getElementById("overlay_mobile").style.display = "none";
-      document.getElementById("overlay").style.display = "block";
-      $('#overlay').fadeIn('slow').delay(4000).fadeOut('slow');
-  }
-}
+        function myFunction(x) {
+            if (x.matches) { // If media query matches
+                document.getElementById("overlay_mobile").style.display = "block";
+                document.getElementById("overlay").style.display = "none";
+                $('#overlay_mobile').fadeIn('slow').delay(4000).fadeOut('slow');
+            } else {
+                document.getElementById("overlay_mobile").style.display = "none";
+                document.getElementById("overlay").style.display = "block";
+                $('#overlay').fadeIn('slow').delay(4000).fadeOut('slow');
+            }
+        }
 
-var x = window.matchMedia("(max-width: 600px)")
-myFunction(x) // Call listener function at run time
-x.addListener(myFunction) // Attach listener function on state changes
-</script>
+        var x = window.matchMedia("(max-width: 600px)")
+        myFunction(x) // Call listener function at run time
+        x.addListener(myFunction) // Attach listener function on state changes
+    </script>
 
     <a name="baobab"></a>
     <div class="infotext">
         BAOBAB is a platform investigating alternative channels for the<br> distribution and dissemination of photography.
+        <div class="overlay">
+            <div class="logo">BAOBAB</div>
+        </div>
     </div>
+
+
     <!--<div id="header"><img src="img/logo.png"></div>-->
     <div class="container">
         <div class="row">
@@ -64,17 +83,203 @@ x.addListener(myFunction) // Attach listener function on state changes
     <div class="contact">
         <p><a href="mailto:baobabfeat@gmail.com">EMAIL</a> <a href="https://www.facebook.com/baobabmagazine/" target="_blank">FACEBOOK</a> <a href="https://www.instagram.com/baobabfeat/" target="_blank">INSTAGRAM</a> </p>
     </div>
+    
+    <div class="about">ABOUT BAOBAB</div>
+    <div id="about" style="display: none;"><p>Baobab is an experimental platform where the process and the tryouts of photography students are highlighted and re-considered. 
+
+In this process the team members are facilitating, exhibitions, publications, lectures and manifestations of all kinds. The goal of the Baobab platform is to push the student to take authority of their own artistic, photographic and professional career. We try to create ‘hands on’ experiences with which these participants can take into the next step of their photographic development. In order for them to take their own decisions, and to form a base for a more entrepreneurial spirit within the photographic world. 
+Baobab has been producing an annual magazine, a sort of cook book where many different ingredients end up creating each time a new recipe. 
+
+Through the collaboration with different graphic designers and student guest editors, Baobab creates opportunities where new narratives can be explored.
+
+Three guest-editors are chosen to decide upon the content, form and picture-edit of the magazine. Together with a Graphic Designer they are in full control over all these decisions. Not only the challenge the construction of a magazine, but also to challenge the idea of what a magazine is. Consequently every issue of Baobab magazine will be different because of this way of working with guest editors.</p></div>
+    
     <div id="shop3" style="display: none;">
-        <a href="https://baobabmagazine.myonline.store/" target="_blank"><img src="img/issuethree/0trans.png"></a>
+        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_1.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_1.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_2.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_2.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_3.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_3.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_4.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_4.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_5.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_5.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_6.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_6.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_7.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_7.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_8.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_8.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_9.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_9.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_10.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_10.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_11.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_11.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_12.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_12.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_13.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_13.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_14.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_14.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_15.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_15.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_16.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_16.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_16.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_16.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_17.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_17.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_18.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_18.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_19.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_19.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_20.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_20.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuethree/spreads/baobabthree_21.jpg" itemprop="contentUrl" data-size="920x672">
+            <img src="img/issuethree/spreads/baobabthree_21.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+           
+        </div>
+
+        <div id="cover3"><a href="https://baobabmagazine.myonline.store/" target="_blank"><img src="img/issuethree/0trans.png" width="95%"></a><p>Spring 2019<br> Graphic Design: Edward July <br>118 pages, edition of 250</p></div>
         <div id="shop3text">On the occasion of the European elections, Baobab Magazine’s third issue Content Union reflects on the state of our continent. 25 students from both the BA and the MA course portray a series of untold stories and off the radar identities. <br>
-From the biggest fake-city turned into a military playground in Germany to the copycat architectural style of Romas in Macedonia, passing through the political stances of musical genres like Flamenco in Spain to Turbo Folk in Serbia.
-<br>
-The ambition of this issue is neither to criticize nor to to praise but rather to question past an present, me and you, aesthetics and politics, with the purpose of bending the narrative of the future.<br><br> <a href="https://baobabmagazine.myonline.store/" target="_blank" id="buy">BUY NOW</a></div>
+            From the biggest fake-city turned into a military playground in Germany to the copycat architectural style of Romas in Macedonia, passing through the political stances of musical genres like Flamenco in Spain to Turbo Folk in Serbia.
+            <br>
+            The ambition of this issue is neither to criticize nor to to praise but rather to question past an present, me and you, aesthetics and politics, with the purpose of bending the narrative of the future.
+            <br>—The Guest Editors<br><br> <a href="https://baobabmagazine.myonline.store/" target="_blank" id="buy">BUY NOW</a></div>
     </div>
     <div class="shop3">ORDER ISSUE &#8470;3 &#8593;&#128165; </div>
 
     <div id="shop2" style="display: none;">
-        <img src="img/issuetwo/0transparent.png">
+        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuetwo/spreads/baobabtwo_1.jpg" itemprop="contentUrl" data-size="830x580">
+            <img src="img/issuetwo/spreads/baobabtwo_1.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuetwo/spreads/baobabtwo_2.jpg" itemprop="contentUrl" data-size="830x580">
+            <img src="img/issuetwo/spreads/baobabtwo_2.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuetwo/spreads/baobabtwo_3.jpg" itemprop="contentUrl" data-size="830x580">
+            <img src="img/issuetwo/spreads/baobabtwo_3.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuetwo/spreads/baobabtwo_4.jpg" itemprop="contentUrl" data-size="830x580">
+            <img src="img/issuetwo/spreads/baobabtwo_4.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuetwo/spreads/baobabtwo_5.jpg" itemprop="contentUrl" data-size="830x580">
+            <img src="img/issuetwo/spreads/baobabtwo_5.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuetwo/spreads/baobabtwo_6.jpg" itemprop="contentUrl" data-size="830x580">
+            <img src="img/issuetwo/spreads/baobabtwo_6.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuetwo/spreads/baobabtwo_7.jpg" itemprop="contentUrl" data-size="830x580">
+            <img src="img/issuetwo/spreads/baobabtwo_7.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuetwo/spreads/baobabtwo_8.jpg" itemprop="contentUrl" data-size="830x580">
+            <img src="img/issuetwo/spreads/baobabtwo_8.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuetwo/spreads/baobabtwo_9.jpg" itemprop="contentUrl" data-size="830x580">
+            <img src="img/issuetwo/spreads/baobabtwo_9.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuetwo/spreads/baobabtwo_10.jpg" itemprop="contentUrl" data-size="830x580">
+            <img src="img/issuetwo/spreads/baobabtwo_10.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="img/issuetwo/spreads/baobabtwo_11.jpg" itemprop="contentUrl" data-size="830x580">
+            <img src="img/issuetwo/spreads/baobabtwo_11.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+        </div>
+            
+        <div id="cover2"><img src="img/issuetwo/0transparent.png" width="95%">
+            <p>Spring 2018<br> Graphic Design: Jan Egbers and Celine Hurka <br>92 pages, edition of 200</p>
+        </div>
         <div id="shop2text">A wealth of images has been sent to us for this
             second edition of Baobab Magazine. In the context
             of the art academy, many projects are made at a fast
@@ -85,14 +290,27 @@ The ambition of this issue is neither to criticize nor to to praise but rather t
             at its second edition, Baobab has been an excuse
             for us to see how these works can form all together a
             narrative of its own.<br>
-            — The Editors</div>
+            —The Editors</div>
     </div>
 
     <div class="shop2">VIEW ISSUE &#8470;2 &#8593;</div>
 
-    <div id="shop1" style="display: none;"><img src="img/issueone/0transparent.png">
-        <div id="shop1text">A celebration of short term project. <br>That's what we want this magazine to be. A space for all the works that we made for the academy and for ourselves. The ones we forgot about, even though they were made only three weeks ago. The projects we liked at our assessments, and the small assignments that surrounded them. Our first project in this academy, new and maybe a bit awkward. That one project that failed horribly, but in essence was actually fascinating. In this magazine we want to elevate those projects, photographs and writings, to celebrate their existence. <br><br>
-            The Editors </div>
+    <div id="shop1" style="display: none;">
+        <div class="gallery1">
+            <img src="img/issueone/1.jpg">
+            <img src="img/issueone/2.jpg">
+            <img src="img/issueone/3.jpg">
+            <img src="img/issueone/4.jpg">
+            <img src="img/issueone/5.jpg">
+            <img src="img/issueone/6.jpg">
+            <img src="img/issueone/7.jpg">
+            <img src="img/issueone/8.jpg">
+        </div>
+        <div id="cover1"> <img src="img/issueone/0transparent.png" width="95%">
+            <p>Fall 2017 <br>Graphic Design: Jan Egbers and Celine Hurka <br>42 pages, edition of 100</p>
+        </div>
+        <div id="shop1text">A celebration of short term project. <br>That's what we want this magazine to be. A space for all the works that we made for the academy and for ourselves. The ones we forgot about, even though they were made only three weeks ago. The projects we liked at our assessments, and the small assignments that surrounded them. Our first project in this academy, new and maybe a bit awkward. That one project that failed horribly, but in essence was actually fascinating. In this magazine we want to elevate those projects, photographs and writings, to celebrate their existence. <br>
+        —The Editors </div>
     </div>
     <div class="shop1">VIEW ISSUE &#8470;1 &#8593;</div>
 
@@ -119,4 +337,69 @@ The ambition of this issue is neither to criticize nor to to praise but rather t
         ga('send', 'pageview')
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+
+            <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+
+                    <div class="pswp__counter"></div>
+
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+
+                    <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+
+<!--
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+-->
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </body></html>
