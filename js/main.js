@@ -70,7 +70,7 @@ jQuery(document).ready(function ($) {
 
 jQuery(document).ready(function ($) {
 
-    $(".about").click(function () {
+    $(".about_mobile").click(function () {
 
         $("#about").slideToggle("slow");
 

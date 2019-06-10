@@ -121,9 +121,6 @@ textarea {
     -webkit-scroll-behavior: smooth !important;
     -moz-scroll-behavior: smooth !important;
     scroll-behavior: smooth !important;
-    user-select: none !important;
-    -moz-user-select: none !important;
-    -webkit-user-select: none !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
    
@@ -235,23 +232,6 @@ body{
     font-size: 30px;
 }
 
-#arrow {
-    position: absolute;
-    text-align: center;
-    width: 4%;
-    left: 50%;
-    margin-left: -2%;
-    bottom: -100px;
-}
-
-#arrow_up {
-    position: absolute;
-    text-align: center;
-    width: 4%;
-    left: 50%;
-    margin-left: -2%;
-    top: 125px;
-}
 
 #one img {
     width: 100%;
@@ -301,6 +281,10 @@ body{
     padding-right: 5px;
     padding-top: 8px;
     margin-bottom: 15px;
+        user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+
 }
 
 
@@ -339,6 +323,10 @@ body{
     font-family: 'baobab';
     font-size: 70px;
     text-align: center;
+        user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+
 /*    line-height: 52px;*/
 /*
     padding-left: 5px;
@@ -348,6 +336,7 @@ body{
 */
 }
 
+
 .about{
     border-top: 1px solid black;
 /*    border-bottom: 1px solid black;*/
@@ -355,6 +344,23 @@ body{
     font-size: 40px;
     cursor: pointer;
     padding-left: 25px;
+        user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+
+}
+
+.about_mobile{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+    padding-left: 25px;
+        user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+    display: none;
 }
 
 .about:hover{
@@ -362,25 +368,29 @@ body{
 }
 
 #about{
-    border-top: 1px solid black;
+/*    border-top: 1px solid black;*/
     font-family: sans-serif;
     color: black;
     padding: 10px;
     padding-left: 25px;
     column-count: 2;
     column-gap: 60px;
-    column-fill: balance;
+/*    column-fill: balance;*/
     line-height: 20px;
 /*    height: 700px;*/
 }
 
 .shop3 {
-    border-top: 1px solid black;
+/*    border-top: 1px solid black;*/
     border-bottom: 1px solid black;
     font-family: sans-serif;
     font-size: 40px;
     cursor: pointer;
     padding-left: 25px;
+        user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+
 
 }
 
@@ -421,6 +431,10 @@ body{
     font-size: 40px;
     cursor: pointer;
     padding-left: 25px;
+        user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+
 }
 
 .shop2:hover {
@@ -429,7 +443,7 @@ body{
 }
 
 #shop2 {
-    border-bottom: 1px solid black;
+/*    border-bottom: 1px solid black;*/
     font-family: sans-serif;
     color: blue;
     height: 700px;
@@ -480,11 +494,15 @@ body{
     font-size: 40px;
     cursor: pointer;
     padding-left: 25px;
+        user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+
 
 }
 
 #shop1 {
-    border-bottom: 1px solid black;
+/*    border-bottom: 1px solid black;*/
     font-family: sans-serif;
     color: blue;
     height: 700px;
@@ -505,6 +523,10 @@ body{
     font-size: 40px;
     text-align: right;
     padding-right: 2%;
+        user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+
 }
 
 .contact p {
@@ -518,6 +540,10 @@ body{
     font-size: 18px;
     text-align: right;
     padding-right: 25px;
+        user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+
 }
 
 a:link {
@@ -607,7 +633,7 @@ a:visited {
         text-align: center;
     }
 
-    .shop1, .shop2, .shop3, .about {
+    .shop1, .shop2, .shop3, .about_mobile {
         line-height: 30px;
         font-size: 25px;
     }
@@ -616,7 +642,13 @@ a:visited {
           width: 95%;
     }
 
-
+    .about{
+        display: none;
+    }
+    
+    .about_mobile{
+        display: block;
+    }
     #arrow {
         display: none;
     }
@@ -629,6 +661,7 @@ a:visited {
         margin-bottom: 50px;
         font-size: 6vw;
         line-height: 6.5vw;
+        
     }
     
     .overlay{
@@ -677,13 +710,21 @@ a:visited {
         text-align: center;
     }
 
-   .shop1, .shop2, .shop3, .about {
+   .shop1, .shop2, .shop3, .about_mobile {
         line-height: 30px;
         font-size: 25px;
     }
     
     #about{
         column-count: 1;
+    }
+    
+    .about{
+        display: none;
+    }
+    
+    .about_mobile{
+        display: block;
     }
 
     #arrow {

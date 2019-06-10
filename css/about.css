@@ -1,0 +1,46 @@
+@font-face {
+    font-family: TimesCond;
+    src: url(../fonts/TimesNewRomanMT.otf);
+}
+
+@font-face {
+    font-family: baobab;
+    src: url(../fonts/baobab.otf);
+}
+
+body{
+     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.logo{
+    position: absolute;
+    font-family: 'baobab';
+    font-size: 70px;
+    color: black;   
+    top: 0px;
+    left: 20px;
+}
+
+p{
+    font-family: sans-serif;
+/*    column-count: 2;*/
+    width: 45%;
+    margin-left: 25%;
+    font-size: 22px;
+    text-align: left;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
