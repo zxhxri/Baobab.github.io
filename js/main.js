@@ -41,7 +41,7 @@ function imageSwiper(target, targetlist) {
     });
 }
 
-$(window).load(function() {
+$(body).load(function() {
 		// Animate loader off screen
 		$(".se-pre-con").fadeOut("slow");;
 	});
