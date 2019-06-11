@@ -31,11 +31,22 @@
 
     <!-- UI JS file -->
     <script src="js/photoswipe-ui-default.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+<script>
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});</script>
 </head>
 
 <body>
+    <div class="se-pre-con"></div>
+<!--
     <div id="overlay">Move your mouse around.</div>
     <div id="overlay_mobile">Tap around the screen.</div>
+-->
     <script>
         function myFunction(x) {
             if (x.matches) { // If media query matches
