@@ -319,6 +319,10 @@ body{
   opacity: 1;
 }
 
+.overlay:hover .inoftext{
+    opacity:0;
+}
+
 .logo {
   position: absolute;
     display: block;
