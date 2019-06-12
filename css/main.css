@@ -674,9 +674,7 @@ a:visited {
     }
 
     .infotext {
-        margin-bottom: 50px;
-        font-size: 7.5vw;
-        line-height: 7.5vw;
+       display: none;
         
     }
     
@@ -752,9 +750,7 @@ a:visited {
     }
     
     .infotext {
-        margin-bottom: 50px;
-        font-size: 7.5vw;
-        line-height: 7.5vw;
+     display: none;
     }
     
     .overlay{
