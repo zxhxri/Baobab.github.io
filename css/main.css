@@ -644,6 +644,11 @@ a:visited {
     #cover1 {
         width: 37%;
     }
+    
+    #cover1 p, #cover2 p, #cover3 p{
+        font-size: 13px;
+         line-height: 15px;
+    }
 
     .contact {
         font-size: 20px;
@@ -718,6 +723,11 @@ a:visited {
 
     #cover1 {
         width: 37%;
+    }
+    
+    #cover1 p, #cover2 p, #cover3 p{
+        font-size: 13px;
+        line-height: 15px;
     }
 
     .contact {
