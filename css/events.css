@@ -1,0 +1,114 @@
+@font-face {
+    font-family: baobab;
+    src: url(../fonts/baobab.otf);
+}
+
+@font-face {
+    font-family: Haas;
+    src: url(../fonts/NHaas.otf);
+}
+html {
+    background-color: black;
+}
+
+.logo_events {
+    position: fixed;
+    display: block;
+    font-family: 'baobab';
+     width: 100%;
+      color: white;
+     top: 0px;
+    left: 2%;
+    text-align: left;
+    background-color: none;
+    user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+}
+
+
+.logo_events p {
+    font-family: 'baobab';
+    font-size: 100px;
+    margin-top: 0px;
+/*    left: 50px;*/
+    margin-bottom: 0px;
+
+}
+
+
+
+.logo_events p:hover {
+    color: blue;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+/*    position: fixed;*/
+    width: 70%;
+   float: right;
+}
+
+.container p {
+    color: white;
+    font-family: 'Haas'
+}
+
+p{
+    margin:0;
+}
+
+img {
+    width: 100%;
+}
+
+
+.wrapper { 
+  border : 2px solid #000; 
+  overflow:hidden;
+}
+
+.wrapper div {
+   min-height: 200px;
+   padding: 10px;
+}
+#one {
+  float:left; 
+  margin:0;
+  width:200px;
+  border-right:2px solid #000;
+}
+
+#two { 
+/*  background-color: white;*/
+  overflow:hidden;
+/*  margin:10px;*/
+  min-height:170px;
+}
+
+@media screen and (max-width: 900px) {
+   #one { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
+    .container{
+        width: 100%;
+    }
+    .logo_events{
+        position: static;
+        text-align: center;
+    }
+    .wrapper{
+        border-bottom: 1px solid white;
+    }
+    .wrapper div{
+        min-height: 0;
+    }
+}

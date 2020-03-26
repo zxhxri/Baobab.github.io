@@ -1,6 +1,7 @@
+
 @font-face {
-    font-family: TimesCond;
-    src: url(../fonts/TimesNewRomanMT.otf);
+    font-family: Haas;
+    src: url(../fonts/NHaas.otf);
 }
 
 @font-face {
@@ -24,6 +25,7 @@ body {
 
 }
 
+
 .logo p {
     font-family: 'baobab';
     font-size: 120px;
@@ -38,7 +40,7 @@ body {
 
 .text {
     position: relative;
-    font-family: sans-serif;
+    font-family: 'Haas';
     width: 650px;
     left: 52%;
     margin-left: -325px;

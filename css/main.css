@@ -11,11 +11,20 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@font-face {
+    font-family: Haas;
+    src: url(../fonts/NHaas.otf);
+}
 
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    
+}
+
+*{
+    font-family: 'Haas';
 }
 
 html::-webkit-scrollbar {
@@ -364,6 +373,8 @@ body{
 }
 
 
+
+
 .about{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -405,6 +416,22 @@ body{
 /*    column-fill: balance;*/
     line-height: 20px;
 /*    height: 700px;*/
+}
+
+.events{
+/*     border-top: 1px solid black;*/
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+    padding-left: 25px;
+        user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+}
+
+.events:hover{
+    color: blue;
 }
 
 .shop3 {
@@ -655,7 +682,7 @@ a:visited {
         text-align: center;
     }
 
-    .shop1, .shop2, .shop3, .about_mobile {
+    .shop1, .shop2, .shop3, .about_mobile, .events {
         line-height: 30px;
         font-size: 25px;
     }
@@ -735,7 +762,7 @@ a:visited {
         text-align: center;
     }
 
-   .shop1, .shop2, .shop3, .about_mobile {
+   .shop1, .shop2, .shop3, .about_mobile, .events {
         line-height: 30px;
         font-size: 25px;
     }
