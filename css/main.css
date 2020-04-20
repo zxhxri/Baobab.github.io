@@ -25,6 +25,7 @@ html {
 
 *{
     font-family: 'Haas';
+     box-sizing: border-box;
 }
 
 html::-webkit-scrollbar {
@@ -154,10 +155,10 @@ body{
 }
 
 .se-pre-con img{
-    position: relative;
-    left: 50%;
-    width: 500px;
-    margin-left: -250px;
+   display: inline-block;
+   margin-left: 50%; /* From parent width */
+   transform: translateX(-50%); /* use self width which can be unknown */
+  -ms-transform: translateX(-50%); /* For IE9 */
 }
 
 #overlay{
@@ -434,6 +435,37 @@ body{
     color: blue;
 }
 
+
+.events_sub {
+       display: none;
+    padding: 0 20px;
+    width: 100%;
+    border-bottom: 1px solid black;
+      margin: 0 auto;
+}
+.section {
+    vertical-align: top;
+    word-spacing: normal; /* reset child */
+    letter-spacing: normal; /* reset child */
+    display: inline-block;
+/*    border: 1px solid red;*/
+    width: 33%; /* the size UNDER the min-width in the media query*/
+    padding: 10px;
+    text-align: left; /* reset child */
+}
+
+.buttons{
+/*    width: 80%;*/
+    padding-bottom: 5%;
+   
+}
+
+.section img{
+    width:100%;
+}
+
+
+
 .shop3 {
 /*    border-top: 1px solid black;*/
     border-bottom: 1px solid black;
@@ -698,6 +730,16 @@ a:visited {
     .about_mobile{
         display: block;
     }
+    
+    .section {
+	    width: 100%;
+	}
+    
+    .buttons {
+	    width: 60%;
+        margin: 0 auto;
+	}
+    
     #arrow {
         display: none;
     }
@@ -778,6 +820,15 @@ a:visited {
     .about_mobile{
         display: block;
     }
+    
+    .section {
+	    width: 100%;
+	}
+    
+    .buttons {
+	    width: 60%;
+        margin: 0 auto;
+	}
 
     #arrow {
         display: none;

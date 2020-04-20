@@ -78,6 +78,14 @@ jQuery(document).ready(function ($) {
     });
 });
 
+jQuery(document).ready(function ($) {
+
+    $(".events").click(function () {
+
+        $(".events_sub").slideToggle("slow");
+
+    });
+});
 
 $(document).ready(function () {
     // Handler for .ready() called.
