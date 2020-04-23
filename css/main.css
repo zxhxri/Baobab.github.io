@@ -400,7 +400,7 @@ body{
     display: none;
 }
 
-.about:hover{
+.about:hover, .about_mobile:hover{
     background-color: yellow;
 }
 
@@ -412,6 +412,7 @@ body{
     padding-left: 25px;
     column-count: 2;
     column-gap: 60px;
+     border-bottom: 1px solid black;
 /*    column-fill: balance;*/
     line-height: 20px;
 /*    height: 700px;*/
@@ -468,7 +469,8 @@ body{
 
 
 .magazines:hover{
-    color: blue;
+    color: yellow;
+    background: black;
 }
 
 #magazines_text{
@@ -523,7 +525,8 @@ body{
 /*    border: 1px solid red;*/
     width: 33%; /* the size UNDER the min-width in the media query*/
 /*    padding: 10px;*/
-    text-align: center; /* reset child */
+    text-align: center;
+    font-size: 1.9vw;/* reset child */
 }
 
 .events_sub .section{
@@ -833,7 +836,8 @@ body{
     }
 
     .contact {
-        font-size: 20px;
+        font-size: 5vw;
+        padding: 15px 0 15px 0;
         text-align: center;
     }
 
@@ -856,6 +860,7 @@ body{
     
     .section {
 	    width: 100%;
+        font-size: 15px;
 	}
     
     .events .buttons {
@@ -953,14 +958,24 @@ body{
         display: block;
     }
     
-    .section {
+     .section {
 	    width: 100%;
+        font-size: 15px;
 	}
     
-    .buttons {
+    .events .buttons {
 	    width: 100%;
         margin: 0 auto;
 	}
+    .magazines_sub .buttons{
+        width 95%;
+        margin: 0 auto;
+    }
+    
+    .magazines_sub .section{
+        width: 32%;
+        margin: 0 auto;
+    }
 
     #arrow {
         display: none;
