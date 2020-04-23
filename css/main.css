@@ -23,6 +23,10 @@ html {
     
 }
 
+.js-focus-visible .btn:focus:not(.focus-visible) {
+  box-shadow: none;
+}
+
 *{
     font-family: 'Haas';
      box-sizing: border-box;
