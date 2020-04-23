@@ -32,21 +32,21 @@
     <!-- UI JS file -->
     <script src="js/photoswipe-ui-default.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 
 
 </head>
 
 <body>
-    
-    
+
+
     <script>
         $(window).load(function() {
-		// Animate loader off screen
-		$(".se-pre-con").fadeOut("slow");;
-	});
-</script>
-<!--
+            // Animate loader off screen
+            $(".se-pre-con").fadeOut("slow");;
+        });
+    </script>
+    <!--
     <div id="overlay">Move your mouse around.</div>
     <div id="overlay_mobile">Tap around the screen.</div>
 -->
@@ -98,171 +98,418 @@
     <div class="contact">
         <p><a href="mailto:baobabfeat@gmail.com">EMAIL</a> <a href="https://www.facebook.com/baobabmagazine/" target="_blank">FACEBOOK</a> <a href="https://www.instagram.com/baobabfeat/" target="_blank">INSTAGRAM</a> </p>
     </div>
-    
-    <a href="about.html"><div class="about">ABOUT BAOBAB</div></a>
+
+    <a href="about.html" id="about_button">
+        <div class="about">ABOUT BAOBAB</div>
+    </a>
     <div class="about_mobile">ABOUT BAOBAB</div>
-    <div id="about" style="display: none;"><p>Baobab is an experimental platform made for photography students to challenge the future of the medium.<br><br>
-The goal of the Baobab platform is to push the student to take authority of its own photographic and professional career. We create hands on experiences to be taken into the next step of one’s photographic development.<br><br>
-The photography world is changing and so are the photographers, we as Baobab want to be a sandbox where to play with new ideas to partake in the photographic landscape. By improving its entrepreneurial capacity we want the photographer to find a new public outside of the comfort zone of the already established photo-world.<br><br>
-So we’ve decided to create a magazine, a sort of cook book where many different ingredients end up creating each time a new recipe. <br><br>
-Parallel to the publication of an annual magazine, we facilitate interventions, exhibitions, lectures where these works can find new ways of expression but most importantly, new audiences.<br><br>
-<i>Magazine</i> <br>The production of the magazine is based on a collaboration between three student-guest editors and a graphic designer. This team decides upon the content of the publication, its message and consequently selects a collection of works to be edited in a completely new narrative.<br><br>
-Every issue a new group of editors foster their idea of what a magazine should be. Every issue of Baobab magazine will be different.
-        <br><br> 
-        
-       <i> Initiators Baobab platform</i><br>
-Pietro Bulfoni<br>
-Kirsten Bosma<br>
-Daniël Siegersma<br>
-<br>
-        <i>Guest-editors 3rd Issue Baobab Magazine</i><br>
-Katarina Juričić<br>
-Marco Verhoogt<br>
-Guglielmo Giomi<br><br>
-<i>Graphic designer 3rd Issue Baobab Magazine</i><br>
-        <a href="https://edwardjuly.com/" target="_blank">Edward July</a><br><br>
+    <div id="about" style="display: none;">
+        <p>Baobab is an experimental platform made for photography students to challenge the future of the medium.<br><br>
+            The goal of the Baobab platform is to push the student to take authority of its own photographic and professional career. We create hands on experiences to be taken into the next step of one’s photographic development.<br><br>
+            The photography world is changing and so are the photographers, we as Baobab want to be a sandbox where to play with new ideas to partake in the photographic landscape. By improving its entrepreneurial capacity we want the photographer to find a new public outside of the comfort zone of the already established photo-world.<br><br>
+            So we’ve decided to create a magazine, a sort of cook book where many different ingredients end up creating each time a new recipe. <br><br>
+            Parallel to the publication of an annual magazine, we facilitate interventions, exhibitions, lectures where these works can find new ways of expression but most importantly, new audiences.<br><br>
+            <i>Magazine</i> <br>The production of the magazine is based on a collaboration between three student-guest editors and a graphic designer. This team decides upon the content of the publication, its message and consequently selects a collection of works to be edited in a completely new narrative.<br><br>
+            Every issue a new group of editors foster their idea of what a magazine should be. Every issue of Baobab magazine will be different.
+            <br><br>
 
-       <i> Web designer and developer</i><br>
-<a href="https://zahari.xyz/" target="_blank">Zahari Dimitrov</a><br><br>
+            <i> Initiators Baobab platform</i><br>
+            Pietro Bulfoni<br>
+            Kirsten Bosma<br>
+            Daniël Siegersma<br>
+            <br>
 
-        <i>Publisher</i><br>
-Baobab Magazine<br>
-Editorial Office<br>
-The Hague<br>
-The Netherlands,<br>
-+31652881110<br>
-baobabfeat@gmail.com<br>
-www.baobabmagazine.eu<br>
-<br>
-<i>Copyright</i><br>
-Baobab Magazine 2016, The Hague<br>
-All rights reserved<br>
-        </p></div>
+            <i> Web designer and developer</i><br>
+            <a href="https://zahari.xyz/" target="_blank">Zahari Dimitrov</a><br><br>
+
+            <i>Publisher</i><br>
+            Baobab Magazine<br>
+            Editorial Office<br>
+            The Hague<br>
+            The Netherlands,<br>
+            +31652881110<br>
+            baobabfeat@gmail.com<br>
+            www.baobabmagazine.eu<br>
+            <br>
+            <i>Copyright</i><br>
+            Baobab Magazine 2016, The Hague<br>
+            All rights reserved<br>
+        </p>
+    </div>
     <div class="events">EVENTS</div>
     <div class="events_sub">
         <div class="buttons">
-        <a href="exhibitions.html"><div class="section"><img src=img/events/1.jpg>EXHIBITIONS</div></a>
-        <a href="workshops.html"><div class="section"><img src=img/events/1.jpg>WORKSHOPS</div></a>
-        <a href="talks.html"><div class="section"><img src=img/events/1.jpg>TALKS</div></a>
-        </div>
-        
-    </div>
-    <div id="shop3" style="display: none;">
-        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_1.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_1.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_2.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_2.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_3.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_3.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_4.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_4.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_5.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_5.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_6.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_6.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_7.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_7.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_8.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_8.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_9.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_9.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_10.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_10.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_11.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_11.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_12.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_12.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_13.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_13.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_14.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_14.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_15.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_15.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_16.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_16.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_16.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_16.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_17.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_17.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_18.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_18.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_19.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_19.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-               <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_20.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_20.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuethree/spreads/baobabthree_21.jpg" itemprop="contentUrl" data-size="920x672">
-            <img src="img/issuethree/spreads/baobabthree_21.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-           
+            <a href="exhibitions.html">
+                <div class="section"><img src=img/events/1.jpg>EXHIBITIONS</div>
+            </a>
+            <a href="workshops.html">
+                <div class="section"><img src=img/events/1.jpg>WORKSHOPS</div>
+            </a>
+            <a href="talks.html">
+                <div class="section"><img src=img/events/1.jpg>TALKS</div>
+            </a>
         </div>
 
-        <div id="cover3"><a href="https://baobabmagazine.myonline.store/" target="_blank"><img src="img/issuethree/0trans.png" width="95%"></a><p>Spring 2019<br> Graphic Design: Edward July <br>120 pages, edition of 350</p></div>
+    </div>
+
+    <div class="magazines">MAGAZINES</div>
+    <div class="magazines_sub">
+        <div id="common">What is a magazine?</div>
+        <div class="buttons">
+            <a href="#slider1" class="button1"><div class="section"><img src=img/issueone/0.jpg>ISSUE ONE</div></a>
+            <a href="#slider2" class="button2"><div class="section"><img src=img/issuetwo/0.jpg>ISSUE TWO</div></a>
+            <a href="#slider3" class="button3">  <div class="section"><img src=img/issuethree/0.jpg>ISSUE THREE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:baobabfeat@gmail.com?subject=Order%20Issue%203&body=Hi%20Baobab,%0d%0dI%20would%20like%20to%20order%20Issue%20#3.%20Here%20are%20my%20details:%0d%0dName:%20x%20%0dNumber%20of%20Copies:%20x%20%0dAdress:%20x%20" rel="EMAIL" id="buy">ORDER NOW</a></div></a>
+        </div>
+       <div id="issueone">A celebration of short term project. That’s what we want this magazine to be. A space for all the works that we made for the academy and for ourselves. The ones we forgot about, even though they were made only three weeks ago. The projects we liked at our assessments, and the small assignments that surrounded them. Our first project in this academy, new and maybe a bit awkward. That one project that failed horribly, but in essence was actually fascinating. In this magazine we want to elevate those projects, photographs and writings, to celebrate their existence. — The Editors</div>
+            <div id="issuetwo">A wealth of images has been sent to us for this second edition of Baobab Magazine. In the context of the art academy, many projects are made at a fast pace. Projects of a full semester, projects of a week and sometimes you have a project that is made in just a day. All those projects deserve a podium so to be saved from gathering dust under our beds. Coming at its second edition, Baobab has been an excuse for us to see how these works can form all together a narrative of its own. — The Editors</div><div id="issuethree">On the occasion of the European elections, Baobab Magazine’s third issue <i>Content Union</i> reflects on the state of our continent. 25 students from both the BA and the MA course portray a series of untold stories and off the radar identities. From the biggest fake-city turned into a military playground in Germany to the copycat architectural style of Romas in Macedonia, passing through the political stances of musical genres like Flamenco in Spain to Turbo Folk in Serbia. The ambition of this issue is neither to criticize nor to to praise but rather to question past an present, me and you, aesthetics and politics, with the purpose of bending the narrative of the future. — The Guest Editors</div>
+<div class="slider">
+    
+    <div class="my-gallery1" itemscope itemtype="http://schema.org/ImageGallery">
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_0.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_0.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_1.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_1.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_2.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_2.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_4.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_4.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_5.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_5.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_6.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_6.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_7.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_7.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_8.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_8.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_9.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_9.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_10.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_10.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+
+        </div>
+   <div class="my-gallery2" itemscope itemtype="http://schema.org/ImageGallery">
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_1.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_1.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_2.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_2.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_3.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_3.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_4.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_4.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_5.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_5.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_6.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_6.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_7.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_7.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_8.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_8.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_9.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_9.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_10.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_10.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_11.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_11.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+        </div>
+<div class="my-gallery3"  itemscope itemtype="http://schema.org/ImageGallery">
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_1.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_1.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_2.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_2.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_3.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_3.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_4.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_4.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_5.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_5.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_6.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_6.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_7.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_7.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_8.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_8.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_9.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_9.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_10.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_10.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_11.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_11.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_12.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_12.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_13.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_13.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_14.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_14.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_15.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_15.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_16.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_16.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_16.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_16.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_17.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_17.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_18.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_18.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_19.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_19.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_20.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_20.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_21.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_21.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+
+</div>
+    
+</div>
+    </div>
+<div class="empty"></div>
+<!--
+    <div id="shop3" style="display: none;">
+        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_1.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_1.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_2.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_2.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_3.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_3.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_4.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_4.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_5.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_5.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_6.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_6.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_7.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_7.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_8.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_8.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_9.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_9.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_10.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_10.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_11.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_11.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_12.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_12.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_13.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_13.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_14.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_14.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_15.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_15.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_16.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_16.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_16.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_16.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_17.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_17.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_18.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_18.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_19.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_19.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_20.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_20.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuethree/spreads/baobabthree_21.jpg" itemprop="contentUrl" data-size="920x672">
+                    <img src="img/issuethree/spreads/baobabthree_21.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+
+        </div>
+
+        <div id="cover3"><a href="https://baobabmagazine.myonline.store/" target="_blank"><img src="img/issuethree/0trans.png" width="95%"></a>
+            <p>Spring 2019<br> Graphic Design: Edward July <br>120 pages, edition of 350</p>
+        </div>
         <div id="shop3text">On the occasion of the European elections, Baobab Magazine’s third issue Content Union reflects on the state of our continent. 25 students from both the BA and the MA course portray a series of untold stories and off the radar identities. <br>
             From the biggest fake-city turned into a military playground in Germany to the copycat architectural style of Romas in Macedonia, passing through the political stances of musical genres like Flamenco in Spain to Turbo Folk in Serbia.
             <br>
@@ -274,62 +521,62 @@ All rights reserved<br>
     <div id="shop2" style="display: none;">
         <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuetwo/spreads/baobabtwo_1.jpg" itemprop="contentUrl" data-size="830x580">
-            <img src="img/issuetwo/spreads/baobabtwo_1.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuetwo/spreads/baobabtwo_2.jpg" itemprop="contentUrl" data-size="830x580">
-            <img src="img/issuetwo/spreads/baobabtwo_2.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuetwo/spreads/baobabtwo_3.jpg" itemprop="contentUrl" data-size="830x580">
-            <img src="img/issuetwo/spreads/baobabtwo_3.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuetwo/spreads/baobabtwo_4.jpg" itemprop="contentUrl" data-size="830x580">
-            <img src="img/issuetwo/spreads/baobabtwo_4.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuetwo/spreads/baobabtwo_5.jpg" itemprop="contentUrl" data-size="830x580">
-            <img src="img/issuetwo/spreads/baobabtwo_5.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuetwo/spreads/baobabtwo_6.jpg" itemprop="contentUrl" data-size="830x580">
-            <img src="img/issuetwo/spreads/baobabtwo_6.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuetwo/spreads/baobabtwo_7.jpg" itemprop="contentUrl" data-size="830x580">
-            <img src="img/issuetwo/spreads/baobabtwo_7.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
+                <a href="img/issuetwo/spreads/baobabtwo_1.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_1.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuetwo/spreads/baobabtwo_8.jpg" itemprop="contentUrl" data-size="830x580">
-            <img src="img/issuetwo/spreads/baobabtwo_8.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
+                <a href="img/issuetwo/spreads/baobabtwo_2.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_2.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuetwo/spreads/baobabtwo_9.jpg" itemprop="contentUrl" data-size="830x580">
-            <img src="img/issuetwo/spreads/baobabtwo_9.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
+                <a href="img/issuetwo/spreads/baobabtwo_3.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_3.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuetwo/spreads/baobabtwo_10.jpg" itemprop="contentUrl" data-size="830x580">
-            <img src="img/issuetwo/spreads/baobabtwo_10.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
+                <a href="img/issuetwo/spreads/baobabtwo_4.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_4.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issuetwo/spreads/baobabtwo_11.jpg" itemprop="contentUrl" data-size="830x580">
-            <img src="img/issuetwo/spreads/baobabtwo_11.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
+                <a href="img/issuetwo/spreads/baobabtwo_5.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_5.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_6.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_6.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_7.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_7.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_8.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_8.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_9.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_9.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_10.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_10.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issuetwo/spreads/baobabtwo_11.jpg" itemprop="contentUrl" data-size="830x580">
+                    <img src="img/issuetwo/spreads/baobabtwo_11.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
         </div>
-            
+
         <div id="cover2"><img src="img/issuetwo/0transparent.png" width="95%">
             <p>Spring 2018<br> Graphic Design: Jan Egbers and Celine Hurka <br>92 pages, edition of 200</p>
         </div>
@@ -349,69 +596,70 @@ All rights reserved<br>
     <div class="shop2">ISSUE &#8470;2 &#8593;</div>
 
     <div id="shop1" style="display: none;">
-         <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issueone/spreads/baobabone_0.jpg" itemprop="contentUrl" data-size="830x620">
-            <img src="img/issueone/spreads/baobabone_0.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issueone/spreads/baobabone_1.jpg" itemprop="contentUrl" data-size="830x620">
-            <img src="img/issueone/spreads/baobabone_1.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issueone/spreads/baobabone_2.jpg" itemprop="contentUrl" data-size="830x620">
-            <img src="img/issueone/spreads/baobabone_2.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issueone/spreads/baobabone_4.jpg" itemprop="contentUrl" data-size="830x620">
-            <img src="img/issueone/spreads/baobabone_4.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issueone/spreads/baobabone_5.jpg" itemprop="contentUrl" data-size="830x620">
-            <img src="img/issueone/spreads/baobabone_5.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issueone/spreads/baobabone_6.jpg" itemprop="contentUrl" data-size="830x620">
-            <img src="img/issueone/spreads/baobabone_6.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
-             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issueone/spreads/baobabone_7.jpg" itemprop="contentUrl" data-size="830x620">
-            <img src="img/issueone/spreads/baobabone_7.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
+                <a href="img/issueone/spreads/baobabone_0.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_0.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issueone/spreads/baobabone_8.jpg" itemprop="contentUrl" data-size="830x620">
-            <img src="img/issueone/spreads/baobabone_8.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
+                <a href="img/issueone/spreads/baobabone_1.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_1.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issueone/spreads/baobabone_9.jpg" itemprop="contentUrl" data-size="830x620">
-            <img src="img/issueone/spreads/baobabone_9.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-    </figure>
+                <a href="img/issueone/spreads/baobabone_2.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_2.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/issueone/spreads/baobabone_10.jpg" itemprop="contentUrl" data-size="830x620">
-            <img src="img/issueone/spreads/baobabone_10.jpg" itemprop="thumbnail" alt="Image description"/>
-        </a>
-    </figure>
-           
+                <a href="img/issueone/spreads/baobabone_4.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_4.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_5.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_5.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_6.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_6.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_7.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_7.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_8.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_8.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_9.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_9.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/issueone/spreads/baobabone_10.jpg" itemprop="contentUrl" data-size="830x620">
+                    <img src="img/issueone/spreads/baobabone_10.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+            </figure>
+
         </div>
         <div id="cover1"> <img src="img/issueone/0transparent.png" width="95%">
             <p>Fall 2017 <br>Graphic Design: Jan Egbers and Celine Hurka <br>42 pages, edition of 100</p>
         </div>
         <div id="shop1text">A celebration of short term project. <br>That's what we want this magazine to be. A space for all the works that we made for the academy and for ourselves. The ones we forgot about, even though they were made only three weeks ago. The projects we liked at our assessments, and the small assignments that surrounded them. Our first project in this academy, new and maybe a bit awkward. That one project that failed horribly, but in essence was actually fascinating. In this magazine we want to elevate those projects, photographs and writings, to celebrate their existence. <br>
-        —The Editors </div>
+            —The Editors </div>
     </div>
     <div class="shop1">ISSUE &#8470;1 &#8593;</div>
+-->
 
 
-    
+
 
     <script src="js/vendor/modernizr-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -480,7 +728,7 @@ All rights reserved<br>
                     <div class="pswp__share-tooltip"></div>
                 </div>
 
-<!--
+                <!--
                 <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
                 </button>
 

@@ -20,8 +20,7 @@ body {
     color: black;
     text-align: center;
     top: 0px;
-    left: 50%;
-    margin-left: -175px;
+    margin: 0 auto;
 
 }
 
@@ -30,7 +29,7 @@ body {
     font-family: 'baobab';
     font-size: 120px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .logo p:hover {
@@ -38,17 +37,29 @@ body {
 
 }
 
+.container p{
+    margin: 0;
+}
+
 .text {
-    position: relative;
-    font-family: 'Haas';
-    width: 650px;
-    left: 52%;
-    margin-left: -325px;
+    font-family: 'Haas',sans-serif;
+    width: 40%;
+/*    left: 50%;*/
+    margin-left: 25%;
     font-size: 22px;
     text-align: left;
     border-left: 1px solid black;
     padding-left: 15px;
+    float: left;
 }
+
+.contact{
+    float: left;
+    margin-left: 2%;
+    width: 20%;
+}
+
+
 
 a:link {
     text-decoration: none;
@@ -76,9 +87,9 @@ a:visited {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .text {
-        font-family: sans-serif;
+        font-family: 'Haas', sans-serif;
         width: 100%;
         left: 0px;
         left: 0;
@@ -90,10 +101,10 @@ a:visited {
 }
 
 
-@media screen and (max-device-width: 600px) and (orientation: portrait) {
+@media screen and (max-device-width: 800px) and (orientation: portrait) {
     .text {
         /*    position: relative;*/
-        font-family: sans-serif;
+        font-family: 'Haas', sans-serif;
         /*    column-count: 2;*/
         width: 100%;
         left: 0px;
@@ -103,4 +114,20 @@ a:visited {
         padding-left: 0px;
     }
 
+}
+
+@media print{
+    
+    .text{
+       /*    position: relative;*/
+        font-family: 'Haas', sans-serif;
+        /*    column-count: 2;*/
+        width: 75%;
+        left: 0px;
+        left: 0;
+        margin-left: 0px;
+        border-left: 0px solid black;
+        padding-left: 0px;
+    }
+    
 }

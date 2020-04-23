@@ -87,12 +87,69 @@ jQuery(document).ready(function ($) {
     });
 });
 
+jQuery(document).ready(function ($) {
+
+    $(".magazines").click(function () {
+
+        $(".magazines_sub").slideToggle("slow");
+
+    });
+});
+
+$(function(){
+      $(".my-gallery1,.my-gallery2, .my-gallery3").hide() // try to hide google navigation bar
+   });
+
+jQuery(document).ready(function ($) {
+
+    $(".button1").click(function () {
+
+        $(".my-gallery1").fadeToggle("slow");
+        $(".my-gallery2, .my-gallery3, #issuetwo, #issuethree").not( ".my-gallery1, #issueone").hide();
+$("#issueone").slideToggle("slow");
+        $(".my-gallery2, .my-gallery3, #issuetwo, #issuethree").not( "#issueone").hide("slow");
+    });
+});
+
+jQuery(document).ready(function ($) {
+
+    $(".button2").click(function () {
+
+        $(".my-gallery2").fadeToggle("slow");
+         $(".my-gallery1, .my-gallery3, #issueone, #issuethree").not( ".my-gallery2, #issuetwo").hide();
+         $("#issuetwo").slideToggle("slow");
+         $(".my-gallery1, .my-gallery3, #issueone, #issuethree").not( " #issuetwo").hide("slow");
+
+    });
+});
+
+jQuery(document).ready(function ($) {
+
+    $(".button3").click(function () {
+
+        $(".my-gallery3").fadeToggle("slow");
+        $(".my-gallery2, .my-gallery1, #issuetwo, #issueone").not( ".my-gallery3").hide();
+$(" #issuethree").slideToggle("slow");
+        $(".my-gallery2, .my-gallery1, #issuetwo, #issueone").not( " #issuethree").hide("slow");
+    });
+});
+
+
+
+
+
 $(document).ready(function () {
     // Handler for .ready() called.
     $('html, body').animate({
         scrollTop: $('.container').offset().top
     }, 'slow');
 });
+
+//function hover(description) {
+//        console.log(description);
+//        document.getElementById('magazines_text').innerHTML = description;
+//    }
+
 
 //var item = document.getElementsByTagName('.gallery2')[0];
 //
@@ -312,4 +369,4 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 };
 
 // execute above function
-initPhotoSwipeFromDOM('.my-gallery');
+initPhotoSwipeFromDOM('.my-gallery1, .my-gallery2, .my-gallery3');
