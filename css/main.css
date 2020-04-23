@@ -23,8 +23,9 @@ html {
     
 }
 
-.js-focus-visible .btn:focus:not(.focus-visible) {
-  box-shadow: none;
+-webkit-tap-highlight-color {
+    color: transparent;
+    background-color: transparent;
 }
 
 *{
