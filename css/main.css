@@ -454,7 +454,7 @@ body{
 
 .magazines_sub {
      background-color: black;
-    color: white;
+    color: #dbdbdb;
        display: none;
 /*    padding: 0 20px;*/
     width: 100%;
@@ -482,36 +482,49 @@ body{
     background: black;
 }
 
-#magazines_text{
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    text-align: left;
-    padding: 30px;
-/*    border-bottom: 20px;*/
-    background-color: white;
-    color: black;
-
-}
 
 #issueone, #issuetwo, #issuethree{
     display: none;
     position: relative;
-    padding: 30px;
+    padding: 3vw 15vw 5vw 15vw;
+    margin: 0 auto;
+    width: 80%;
+    background-color: black;
   
 }
-
-#common{
+#events_common{
+    display: block;
      position: relative;
-    width: 100%;
-/*    height: 250px;*/
+    padding: 30px;
+    margin: 0 auto;
+    width: 75%;
+    font-size: 1.9vw;
+    line-height: 2.4vw;
+    text-align: center;
+}
+#common{
+    display: block;
+     position: relative;
+    padding: 30px;
+    margin: 0 auto;
+    width: 75%;
+    font-size: 1.9vw;
+    line-height: 2.4vw;
+    text-align: center;
+}
+
+/*
+#common{
+     position: static;
+    column-count: 2;
+    column-fill: balance;
+    width: 80%;
     margin: 0 auto;
     padding-top: 30px;
-    text-align: center;
-/*    border-bottom: 20px;*/
-/*    background-color: white;*/
+    text-align: left;
     color: white;
 }
+*/
 
 
 .my-gallery1, .my-gallery2, .my-gallery3{
@@ -568,88 +581,7 @@ body{
 
 
 
-.shop3 {
-/*    border-top: 1px solid black;*/
-    border-bottom: 1px solid black;
-    font-family: sans-serif;
-    font-size: 40px;
-    cursor: pointer;
-    padding-left: 25px;
-        user-select: none !important;
-    -moz-user-select: none !important;
-    -webkit-user-select: none !important;
 
-
-}
-
-.shop3:hover {
-    background-color: blue;
-    color: white;
-}
-
-#shop3 {
-    border-top: 1px solid black;
-    font-family: sans-serif;
-    color: blue;
-    height: 700px;
-}
-
-
-
-#shop3text,
-#shop2text,
-#shop1text {
-    
-    font-size: 17px;
-    width: 50%;
-    position: relative;
-    padding-top: 10px;
-    right: 10%;
-    float: right;
-    margin: 0;
-    color: black;
-    line-height: 20px;
-}
-
-
-
-.shop2 {
-    border-bottom: 1px solid black;
-    font-family: sans-serif;
-    font-size: 40px;
-    cursor: pointer;
-    padding-left: 25px;
-        user-select: none !important;
-    -moz-user-select: none !important;
-    -webkit-user-select: none !important;
-
-}
-
-.shop2:hover {
-    background-color: yellow;
-    color: blue;
-}
-
-#shop2 {
-/*    border-bottom: 1px solid black;*/
-    font-family: sans-serif;
-    color: blue;
-    height: 700px;
-}
-
-#cover2, #cover1, #cover3 {
-    width: 25%;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    float: left;
-    padding-left: 20px;
-    color: black;
-    font-family: 'TimesCond';
-    line-height: 20px;
-        font-size: 18px;
-}
 
 .slider{
     position: absolute;
@@ -657,7 +589,9 @@ body{
     width: 100%;
     left: 0;
     height: 150px;
+    padding-bottom: 180px;
     background-color: black;
+/*    bottom: 20px;*/
 }
 
 .my-gallery1, .my-gallery2, .my-gallery3 {
@@ -684,33 +618,7 @@ body{
 
 
 
-.shop1 {
-    border-bottom: 1px solid black;
-    font-family: sans-serif;
-    font-size: 40px;
-    cursor: pointer;
-    padding-left: 25px;
-        user-select: none !important;
-    -moz-user-select: none !important;
-    -webkit-user-select: none !important;
 
-
-}
-
-#shop1 {
-/*    border-bottom: 1px solid black;*/
-    font-family: sans-serif;
-    color: blue;
-    height: 700px;
-
-}
-
-
-
-.shop1:hover {
-    background-color: blue;
-    color: yellow;
-}
 
 .contact {
     position: relative;
@@ -771,20 +679,6 @@ body{
     color: black;
 }
 
-#cover3:hover,
-#cover2:hover,
-#cover1:hover {
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    transform: rotate(20deg);
-}
 
 /* galleries*/
 
@@ -823,26 +717,6 @@ body{
         width: 100%;
     }
 
-    #shop1 {
-        height: 700px;
-    }
-
-    #shop2 {
-        height: 700px;
-    }
-
-    #shop3 {
-        height: 700px;
-    }
-
-    #cover1 {
-        width: 37%;
-    }
-    
-    #cover1 p, #cover2 p, #cover3 p{
-        font-size: 13px;
-         line-height: 15px;
-    }
 
     .contact {
         font-size: 5vw;
@@ -850,7 +724,7 @@ body{
         text-align: center;
     }
 
-    .shop1, .shop2, .shop3, .about_mobile, .events, .magazines {
+ .about_mobile, .events, .magazines {
         line-height: 30px;
         font-size: 25px;
     }
@@ -867,10 +741,14 @@ body{
         display: block;
     }
     
-    .section {
+    .section, #common {
 	    width: 100%;
         font-size: 15px;
+        line-height: 18px;
 	}
+    #issueone, #issuetwo, #issuethree{
+        width: 100%;
+    }
     
     .events .buttons {
 	    width: 100%;
@@ -902,20 +780,6 @@ body{
     .overlay{
         display: none;
     }
-#shop3text,
-#shop2text,
-#shop1text {
-    
-    font-size: 14px;
-    width: 50%;
-    position: relative;
-    padding-top: 10px;
-    right: 10%;
-    float: right;
-    margin: 0;
-    color: black;
-    line-height: 16px;
-}
 }
 
 
@@ -924,35 +788,15 @@ body{
         width: 100%;
     }
 
-    #shop1 {
-        height: 700px;
-    }
-
-    #shop2 {
-        height: 700px;
-    }
-
-    #shop3 {
-        height: 700px;
-    }
-
-    #cover1 {
-        width: 37%;
-    }
-    
-    #cover1 p, #cover2 p, #cover3 p{
-        font-size: 13px;
-        line-height: 15px;
-    }
-
     .contact {
         font-size: 20px;
         text-align: center;
     }
 
-   .shop1, .shop2, .shop3, .about_mobile, .events, .magazines {
+    .about_mobile, .events, .magazines {
         line-height: 30px;
         font-size: 25px;
+        
     }
     
     #about{
@@ -967,10 +811,14 @@ body{
         display: block;
     }
     
-     .section {
+     .section, #common {
 	    width: 100%;
         font-size: 15px;
 	}
+    
+     #issueone, #issuetwo, #issuethree{
+        width: 100%;
+    }
     
     .events .buttons {
 	    width: 100%;
@@ -986,13 +834,6 @@ body{
         margin: 0 auto;
     }
 
-    #arrow {
-        display: none;
-    }
-
-    #arrow_up {
-        display: none;
-    }
     
     .infotext {
      display: none;
@@ -1002,21 +843,6 @@ body{
         display: none;
     }
     
-    
-#shop3text,
-#shop2text,
-#shop1text {
-    
-    font-size: 14px;
-    width: 50%;
-    position: relative;
-    padding-top: 10px;
-    right: 10%;
-    float: right;
-    margin: 0;
-    color: black;
-    line-height: 16px;
-}
 }
 
 
