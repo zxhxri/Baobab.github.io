@@ -106,7 +106,7 @@ jQuery(document).ready(function ($) {
 
         $(".my-gallery1").fadeToggle("slow");
         $(".my-gallery2, .my-gallery3, #issuetwo, #issuethree").not(".my-gallery1, #issueone").hide();
-        $("#issueone").slideToggle("slow");
+        $("#issueone").fadeToggle("slow");
         $(".my-gallery2, .my-gallery3, #issuetwo, #issuethree").not("#issueone").hide("slow");
     });
 });
@@ -117,7 +117,7 @@ jQuery(document).ready(function ($) {
 
         $(".my-gallery2").fadeToggle("slow");
         $(".my-gallery1, .my-gallery3, #issueone, #issuethree").not(".my-gallery2, #issuetwo").hide();
-        $("#issuetwo").slideToggle("slow");
+        $("#issuetwo").fadeToggle("slow");
         $(".my-gallery1, .my-gallery3, #issueone, #issuethree").not("#issuetwo").hide("slow");
 
     });
@@ -129,7 +129,7 @@ jQuery(document).ready(function ($) {
 
         $(".my-gallery3").fadeToggle("slow");
         $(".my-gallery2, .my-gallery1, #issuetwo, #issueone").not(".my-gallery3").hide();
-        $(" #issuethree").slideToggle("slow");
+        $(" #issuethree").fadeToggle("slow");
         $(".my-gallery2, .my-gallery1, #issuetwo, #issueone").not(" #issuethree").hide("slow");
     });
 });

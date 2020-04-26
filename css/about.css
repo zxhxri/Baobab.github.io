@@ -45,7 +45,7 @@ body {
     font-family: 'Haas',sans-serif;
     width: 40%;
 /*    left: 50%;*/
-    margin-left: 30vw;
+    margin-left: 25vw;
     font-size: 25px;
     text-align: left;
     border-left: 1px solid black;
@@ -57,7 +57,7 @@ body {
     float: left;
     margin-left: 2%;
     width: 20%;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 

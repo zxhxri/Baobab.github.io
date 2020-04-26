@@ -486,12 +486,29 @@ body{
 #issueone, #issuetwo, #issuethree{
     display: none;
     position: relative;
-    padding: 3vw 15vw 5vw 15vw;
+    padding: 3vw 15vw 15vw 15vw;
     margin: 0 auto;
-    width: 80%;
+    height: auto;
+    width: 100%;
     background-color: black;
   
 }
+
+.main_text{
+     width: 100%;
+    float: left;
+    font-size: 25px;
+    
+}
+
+.sub_text{
+     width: 50%;
+    margin-left: 1vw;
+    float: left;
+    font-size: 15px;
+    
+}
+
 #events_common{
     display: block;
      position: relative;
@@ -507,7 +524,7 @@ body{
      position: relative;
     padding: 30px;
     margin: 0 auto;
-    width: 75%;
+    width: 95%;
     font-size: 1.9vw;
     line-height: 2.4vw;
     text-align: center;
@@ -584,11 +601,12 @@ body{
 
 
 .slider{
-    position: absolute;
+    position: relative;
     overflow-x: scroll;
     width: 100%;
     left: 0;
     height: 150px;
+    padding-top: 3vw;
     padding-bottom: 180px;
     background-color: black;
 /*    bottom: 20px;*/
