@@ -441,7 +441,7 @@ body{
 
 .events_sub {
        display: none;
-    padding: 0 20px;
+/*    padding: 0 20px;*/
     width: 100%;
     border-bottom: 1px solid black;
       margin: 0 auto;
@@ -486,7 +486,7 @@ body{
 #issueone, #issuetwo, #issuethree{
     display: none;
     position: relative;
-    padding: 3vw 15vw 15vw 15vw;
+    padding: 3vw 0 15vw 15vw;
     margin: 0 auto;
     height: auto;
     width: 100%;
@@ -496,6 +496,7 @@ body{
 
 .main_text{
      width: 100%;
+    padding-right: 15vw;
     float: left;
     font-size: 25px;
     
@@ -503,9 +504,9 @@ body{
 
 .sub_text{
      width: 50%;
-    margin-left: 1vw;
-    float: left;
+    float: right;
     font-size: 15px;
+    padding-right: 3vw;
     
 }
 
@@ -514,10 +515,12 @@ body{
      position: relative;
     padding: 30px;
     margin: 0 auto;
-    width: 75%;
+    width: 95%;
     font-size: 1.9vw;
     line-height: 2.4vw;
-    text-align: center;
+/*    text-align: center;*/
+     text-align: justify;
+  text-justify: auto;
 }
 #common{
     display: block;
@@ -527,7 +530,9 @@ body{
     width: 95%;
     font-size: 1.9vw;
     line-height: 2.4vw;
-    text-align: center;
+/*    text-align: center;*/
+    text-align: justify;
+  text-justify: inter-word;
 }
 
 /*
@@ -569,12 +574,12 @@ body{
 }
 
 .events_sub .section{
-    padding: 15px;
+    padding: 25px;
 }
 
 .buttons{
-/*    width: 80%;*/
-/*    padding-bottom: 5%;*/ 
+/*    width: 100%;*/
+/*    padding-left: 25px; */
    
 }
 
@@ -764,8 +769,25 @@ body{
         font-size: 15px;
         line-height: 18px;
 	}
+    
+    .events_sub .buttons{
+       width: 80%;
+        margin: 0 auto;
+    }
     #issueone, #issuetwo, #issuethree{
         width: 100%;
+        padding: 10px 0px 0px 5vw;
+    }
+    
+    .main_text{
+        font-size: 20px;
+        padding-right: 5vw;
+    }
+    
+    .sub_text{
+        width: 100%;
+        float: left;
+        padding-right: 30vw;
     }
     
     .events .buttons {
