@@ -486,7 +486,7 @@ body{
 #issueone, #issuetwo, #issuethree{
     display: none;
     position: relative;
-    padding: 3vw 0 15vw 15vw;
+    padding: 30px;
     margin: 0 auto;
     height: auto;
     width: 100%;
@@ -496,10 +496,10 @@ body{
 
 .main_text{
      width: 100%;
-    padding-right: 15vw;
     float: left;
-    font-size: 25px;
-    
+    font-size: 1.9vw;
+    text-align: justify;
+
 }
 
 .sub_text{
@@ -507,7 +507,6 @@ body{
     float: right;
     font-size: 15px;
     padding-right: 3vw;
-    
 }
 
 #events_common{
@@ -610,7 +609,7 @@ body{
     overflow-x: scroll;
     width: 100%;
     left: 0;
-    height: 150px;
+/*    height: 150px;*/
     padding-top: 3vw;
     padding-bottom: 180px;
     background-color: black;
