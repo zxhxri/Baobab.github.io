@@ -638,8 +638,58 @@ body{
 /*    overflow-x: scroll;*/
 }
 
+.dutch{
+  display: none;
+}
 
+.lang{
+    display: inline-block;
+    float: right;
+    right: 10px;
+    top: 10px;
+    z-index: 999999;
+    position: fixed;
+}
 
+.btn, 
+.btn:visited {
+	color: #ffffff;
+	background: #000000;
+	padding: 8px 22px;
+	font-size: 18px;
+    font-family: 'Haas', sans-serif;
+	line-height: 100%;
+	color: #ffffff;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	font-weight: 300;
+	transition: background 0.1s ease-in-out;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	color: #ffffff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 4px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.btn:hover, 
+.btn:visited:hover,
+.btn:focus, 
+.btn:visited:focus {
+	background: #ffffff;
+    color: #000000;
+}
+
+.btn:active, 
+.btn:visited:active {
+	box-shadow: 0px 1px 0px 0px #01192e;
+}
 
 
 .contact {

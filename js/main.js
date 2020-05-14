@@ -145,7 +145,6 @@ $(document).ready(function () {
     }, 'slow');
 });
 
-
 //function hover(description) {
 //        console.log(description);
 //        document.getElementById('magazines_text').innerHTML = description;
