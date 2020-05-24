@@ -319,14 +319,20 @@ body{
 .infotext {
     position: relative;
     height: 100px;
+    width: 100%;
     font-family: 'TimesCond';
     font-size: 3.5vw;
     text-align: center;
-    line-height: 52px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 8px;
+    line-height: 3.4vw;
+/*
+    padding-left: 5vw;
+    padding-right: 0vw;
+*/
+    padding-top: 15px;
     margin-bottom: 15px;
+    display: flex;
+  align-items: center;
+  justify-content: center; 
         user-select: none !important;
     -moz-user-select: none !important;
     -webkit-user-select: none !important;
@@ -649,13 +655,13 @@ body{
 
 .btn, 
 .btn:visited {
-	color: #ffffff;
-	background: #000000;
+	color: #000000;
+	background: #ffffff;
 	padding: 8px 22px;
 	font-size: 18px;
     font-family: 'Haas', sans-serif;
 	line-height: 100%;
-	color: #ffffff;
+	color: #000000;
 	display:inline-block;
 	vertical-align: middle;
 	text-align: center;
@@ -666,7 +672,7 @@ body{
 	-moz-transition: background 0.1s ease-in-out;
 	-ms-transition: background 0.1s ease-in-out;
 	-o-transition: background 0.1s ease-in-out;
-	color: #ffffff;
+	color: #000000;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 4px;
@@ -678,8 +684,8 @@ body{
 .btn:visited:hover,
 .btn:focus, 
 .btn:visited:focus {
-	background: #ffffff;
-    color: #000000;
+	background: #000000;
+    color: #ffffff;
 }
 
 .btn:active, 
