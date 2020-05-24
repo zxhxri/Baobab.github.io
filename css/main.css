@@ -21,6 +21,9 @@ html {
     font-size: 1em;
     line-height: 1.4;
     -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
     
 }
 
@@ -463,8 +466,6 @@ body{
 }
 
 .magazines{
-/*     border-top: 1px solid black;*/
-   
     border-bottom: 1px solid black;
     font-family: sans-serif;
     font-size: 40px;
@@ -491,6 +492,7 @@ body{
     height: auto;
     width: 100%;
     background-color: black;
+    color: #dbdbdb;
   
 }
 
@@ -517,7 +519,6 @@ body{
     width: 95%;
     font-size: 1.9vw;
     line-height: 2.4vw;
-/*    text-align: center;*/
      text-align: justify;
   text-justify: auto;
 }
@@ -529,7 +530,6 @@ body{
     width: 95%;
     font-size: 1.9vw;
     line-height: 2.4vw;
-/*    text-align: center;*/
     text-align: justify;
   text-justify: inter-word;
 }
@@ -574,13 +574,9 @@ body{
 
 .events_sub .section{
     padding: 25px;
+    color: black;
 }
 
-.buttons{
-/*    width: 100%;*/
-/*    padding-left: 25px; */
-   
-}
 
 .section img{
     width:100%;

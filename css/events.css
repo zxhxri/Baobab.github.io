@@ -7,15 +7,29 @@
     font-family: Haas;
     src: url(../fonts/NHaas.otf);
 }
+
+@font-face {
+    font-family: HaasMed;
+    src: url(../fonts/NHaasMed.otf);
+}
 html {
-    background-color: black;
+    background-color: white;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
 
 .logo_events {
     position: static;
     display: block;
 /*     width: auto;*/
-      color: white;
+      color: #dbdbdb;
 /*     top: 2%;*/
 /*    left: 2%;*/
     text-align: left;
@@ -36,6 +50,7 @@ html {
     margin-bottom: 0px;
 /*     fill: white;*/
   background: transparent;
+    filter: invert(100%);
 
 
 }
@@ -65,9 +80,11 @@ a {
     text-decoration: none;
 }
 
+/*
 .wrapper .dutch{
   display: none;
 }
+*/
 
 .lang{
     float: right;
@@ -120,8 +137,12 @@ a {
 }
 
 .container p {
-    color: white;
+/*    color: #dbdbdb;*/
     font-family: 'Haas'
+}
+
+#bold{
+    font-family: 'HaasMed';
 }
 
 p{
@@ -134,7 +155,7 @@ img {
 
 
 .wrapper { 
-  border : 2px solid #000; 
+/*  border : 2px solid #000; */
   overflow:hidden;
     position: relative;
     margin-bottom: 20px;
@@ -153,6 +174,7 @@ img {
 /*  border-right:2px solid #000;*/
     position: absolute;
     bottom: 0;
+    
 }
 
 
