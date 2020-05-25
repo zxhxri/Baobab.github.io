@@ -138,7 +138,8 @@ a {
 
 .container p {
 /*    color: #dbdbdb;*/
-    font-family: 'Haas'
+    font-family: 'Haas';
+    font-size: 17px;
 }
 
 #bold{
