@@ -24,6 +24,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    padding-bottom: 30px;
 
 }
 
@@ -398,7 +399,7 @@ body {
 .about {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    font-family: sans-serif;
+    font-family: 'Haas', sans-serif;
     font-size: 40px;
     cursor: pointer;
     padding-left: 25px;
@@ -411,7 +412,7 @@ body {
 .about_mobile {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    font-family: sans-serif;
+    font-family: 'Haas', sans-serif;
     font-size: 40px;
     cursor: pointer;
     padding-left: 25px;
@@ -428,7 +429,7 @@ body {
 
 #about {
     /*    border-top: 1px solid black;*/
-    font-family: sans-serif;
+    font-family: 'Haas', sans-serif;
     color: black;
     padding: 10px;
     padding-left: 25px;
@@ -443,7 +444,7 @@ body {
 .events {
     /*     border-top: 1px solid black;*/
     border-bottom: 1px solid black;
-    font-family: sans-serif;
+    font-family: 'Haas', sans-serif;
     font-size: 40px;
     cursor: pointer;
     padding-left: 25px;
@@ -477,7 +478,7 @@ body {
 
 .magazines {
     border-bottom: 1px solid black;
-    font-family: sans-serif;
+    font-family: 'Haas', sans-serif;
     font-size: 40px;
     cursor: pointer;
     padding-left: 25px;
@@ -703,7 +704,7 @@ body {
 .contact {
     position: relative;
     border-top: 1px solid black;
-    font-family: sans-serif;
+    font-family: 'Haas', sans-serif;
     font-size: 40px;
     text-align: right;
     padding-right: 2%;
@@ -777,15 +778,15 @@ body {
     }
 
     .contact {
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
     }
 
     .about_mobile,
     .events,
     .magazines {
-        line-height: 30px;
-        font-size: 25px;
+        line-height: 40px;
+        font-size: 35px;
 
     }
 
@@ -868,15 +869,15 @@ body {
     }
 
     .contact {
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
     }
 
     .about_mobile,
     .events,
     .magazines {
-        line-height: 30px;
-        font-size: 25px;
+        line-height: 40px;
+        font-size: 35px;
 
     }
 
